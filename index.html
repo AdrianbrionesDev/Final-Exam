@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="icon" href="src/image/fan-icon-logo.png">
+    
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#" class="logo">FoldiFun<span class="dot">.</span></a>
+            <nav class="navbar">
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </nav>
+        </header>
+        
+        <div class="main-content">
+            <div class="main-text">
+                <h2>Beat the Heat with Ease!</h2>
+                <p>Stay cool and comfortable wherever you go with our mini portable foldable fan,
+                 designed to provide a refreshing breeze in the palm of your hand. Its compact design
+                 and lightweight
+                  construction make it the perfect accessory for hot summer days.</p>
+                  <a href="product.html">Shop Now</a>
+            </div>
+                 <div class="img-box">
+                    <img src="src/image/fan-white.png" alt="White Fan" class="fan1">
+                 </div>
+        </div>
+        <ul class="sub-fans">
+            <li><img src="src/image/fan-blue.png"  onclick="imgSlider('src/image/fan-blue.png')"></li>
+            <li><img src="src/image/fan-pink.png"  onclick="imgSlider('src/image/fan-pink.png')"></li>
+            <li><img src="src/image/fan-green.png" onclick="imgSlider('src/image/fan-green.png')"></li>
+            <li><img src="src/image/fan-white.png" onclick="imgSlider('src/image/fan-white.png')"></li>
+        </ul>
+    </section>
+    
+    <script type="text/javascript">
+        function imgSlider(anything) 
+        {
+            document.querySelector('.fan1') .src = anything;
+        }
+    </script>
+
+
+</body>
+</html>

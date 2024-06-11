@@ -429,3 +429,9 @@ header .navbar a:hover
     margin-left: 205px;
     margin-top: -65px;
 }
+
+.footers
+{
+    text-align: center;
+    background-color: var(--header-background-color);
+}
